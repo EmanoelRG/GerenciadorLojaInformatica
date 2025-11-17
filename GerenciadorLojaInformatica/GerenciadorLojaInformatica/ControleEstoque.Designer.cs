@@ -35,6 +35,9 @@
             btnExcluirProduto = new Button();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            txtDescricaoProduto = new TextBox();
+            btnBuscar = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvListarProdutos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -42,7 +45,7 @@
             // dgvListarProdutos
             // 
             dgvListarProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListarProdutos.Location = new Point(40, 258);
+            dgvListarProdutos.Location = new Point(40, 309);
             dgvListarProdutos.Name = "dgvListarProdutos";
             dgvListarProdutos.RowHeadersWidth = 51;
             dgvListarProdutos.Size = new Size(695, 377);
@@ -50,11 +53,11 @@
             // 
             // btnCadProduto
             // 
-            btnCadProduto.Font = new Font("Segoe UI Emoji", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCadProduto.Font = new Font("Segoe UI Emoji", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCadProduto.Image = (Image)resources.GetObject("btnCadProduto.Image");
-            btnCadProduto.Location = new Point(40, 173);
+            btnCadProduto.Location = new Point(40, 216);
             btnCadProduto.Name = "btnCadProduto";
-            btnCadProduto.Size = new Size(207, 64);
+            btnCadProduto.Size = new Size(228, 64);
             btnCadProduto.TabIndex = 1;
             btnCadProduto.Text = "Cadastrar Produto";
             btnCadProduto.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -63,11 +66,11 @@
             // 
             // btnAlterar
             // 
-            btnAlterar.Font = new Font("Segoe UI Emoji", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAlterar.Font = new Font("Segoe UI Emoji", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAlterar.Image = (Image)resources.GetObject("btnAlterar.Image");
-            btnAlterar.Location = new Point(287, 173);
+            btnAlterar.Location = new Point(283, 216);
             btnAlterar.Name = "btnAlterar";
-            btnAlterar.Size = new Size(207, 64);
+            btnAlterar.Size = new Size(206, 64);
             btnAlterar.TabIndex = 2;
             btnAlterar.Text = "Alterar Produto";
             btnAlterar.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -76,11 +79,11 @@
             // 
             // btnExcluirProduto
             // 
-            btnExcluirProduto.Font = new Font("Segoe UI Emoji", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnExcluirProduto.Font = new Font("Segoe UI Emoji", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnExcluirProduto.Image = (Image)resources.GetObject("btnExcluirProduto.Image");
-            btnExcluirProduto.Location = new Point(528, 173);
+            btnExcluirProduto.Location = new Point(510, 216);
             btnExcluirProduto.Name = "btnExcluirProduto";
-            btnExcluirProduto.Size = new Size(207, 64);
+            btnExcluirProduto.Size = new Size(191, 64);
             btnExcluirProduto.TabIndex = 3;
             btnExcluirProduto.Text = "Excluir Produto";
             btnExcluirProduto.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -92,7 +95,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.MediumBlue;
-            label1.Location = new Point(129, 35);
+            label1.Location = new Point(133, 27);
             label1.Name = "label1";
             label1.Size = new Size(447, 50);
             label1.TabIndex = 4;
@@ -108,12 +111,46 @@
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
+            // txtDescricaoProduto
+            // 
+            txtDescricaoProduto.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtDescricaoProduto.Location = new Point(40, 149);
+            txtDescricaoProduto.Name = "txtDescricaoProduto";
+            txtDescricaoProduto.Size = new Size(520, 30);
+            txtDescricaoProduto.TabIndex = 6;
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.Font = new Font("Segoe UI Emoji", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBuscar.Image = (Image)resources.GetObject("btnBuscar.Image");
+            btnBuscar.Location = new Point(566, 145);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(135, 34);
+            btnBuscar.TabIndex = 7;
+            btnBuscar.Text = "BUSCAR";
+            btnBuscar.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(44, 123);
+            label2.Name = "label2";
+            label2.Size = new Size(155, 23);
+            label2.TabIndex = 8;
+            label2.Text = "Nome do produto";
+            // 
             // ControleEstoque
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightBlue;
-            ClientSize = new Size(767, 656);
+            ClientSize = new Size(775, 698);
+            Controls.Add(label2);
+            Controls.Add(btnBuscar);
+            Controls.Add(txtDescricaoProduto);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
             Controls.Add(btnExcluirProduto);
@@ -137,5 +174,8 @@
         private Button btnExcluirProduto;
         private Label label1;
         private PictureBox pictureBox1;
+        private TextBox txtDescricaoProduto;
+        private Button btnBuscar;
+        private Label label2;
     }
 }

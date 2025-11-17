@@ -46,6 +46,7 @@ namespace GerenciadorLojaInformatica
         public DataTable ListarProdutos()
         {
                 conexaoProduto.AbrirBanco();
+                
                 string sql_buscar = "SELECT * FROM produtos";
                 MySqlCommand listar = new MySqlCommand(sql_buscar,conexaoProduto.conexao);
 
@@ -59,6 +60,43 @@ namespace GerenciadorLojaInformatica
                 
                 conexaoProduto.FecharBanco();
         }
-       
+        public DataTable Buscar(string descricao)
+        {
+            DataTable tabela = new DataTable();
+
+            try
+            {
+                conexaoProduto.AbrirBanco();
+
+                string sql = "SELECT * FROM produtos WHERE 1=1";
+
+                if (!string.IsNullOrEmpty(descricao))
+                    sql += " AND descricao LIKE @descricao";
+
+                //if (!string.IsNullOrEmpty(categoria))
+                //    sql += " AND categoria = @categoria";
+
+                MySqlCommand comando = new MySqlCommand(sql, conexaoProduto.conexao);
+
+                if (!string.IsNullOrEmpty(descricao))
+                    comando.Parameters.AddWithValue("@descricao", "%" + descricao + "%");
+
+                //if (!string.IsNullOrEmpty(categoria))
+                //    comando.Parameters.AddWithValue("@categoria", categoria);
+
+                MySqlDataAdapter da = new MySqlDataAdapter(comando);
+                da.Fill(tabela);
+
+                conexaoProduto.FecharBanco();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao buscar produtos: " + ex.Message);
+            }
+
+            return tabela;
+        }
+
+
     }
 }

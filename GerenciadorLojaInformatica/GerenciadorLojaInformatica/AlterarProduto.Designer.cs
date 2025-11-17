@@ -41,6 +41,10 @@
             btnAlterSalvar = new Button();
             button1 = new Button();
             pictureBox1 = new PictureBox();
+            label6 = new Label();
+            textBox1 = new TextBox();
+            button2 = new Button();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)numAlterQnt).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -50,7 +54,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.MediumBlue;
-            label1.Location = new Point(160, 40);
+            label1.Location = new Point(173, 80);
             label1.Name = "label1";
             label1.Size = new Size(338, 46);
             label1.TabIndex = 0;
@@ -60,7 +64,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(40, 125);
+            label2.Location = new Point(40, 253);
             label2.Name = "label2";
             label2.Size = new Size(104, 28);
             label2.TabIndex = 1;
@@ -70,7 +74,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(41, 169);
+            label3.Location = new Point(40, 310);
             label3.Name = "label3";
             label3.Size = new Size(103, 28);
             label3.TabIndex = 2;
@@ -80,7 +84,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(84, 224);
+            label4.Location = new Point(75, 367);
             label4.Name = "label4";
             label4.Size = new Size(60, 28);
             label4.TabIndex = 3;
@@ -90,7 +94,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(22, 270);
+            label5.Location = new Point(401, 318);
             label5.Name = "label5";
             label5.Size = new Size(122, 28);
             label5.TabIndex = 4;
@@ -101,7 +105,7 @@
             cmbAlterCat.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cmbAlterCat.FormattingEnabled = true;
             cmbAlterCat.Items.AddRange(new object[] { "Hardware", "Periféricos", "SmartPhones", "Desktops", "Notebooks" });
-            cmbAlterCat.Location = new Point(160, 166);
+            cmbAlterCat.Location = new Point(160, 310);
             cmbAlterCat.Name = "cmbAlterCat";
             cmbAlterCat.Size = new Size(217, 36);
             cmbAlterCat.TabIndex = 5;
@@ -109,15 +113,15 @@
             // txtAlterDesc
             // 
             txtAlterDesc.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtAlterDesc.Location = new Point(160, 122);
+            txtAlterDesc.Location = new Point(160, 253);
             txtAlterDesc.Name = "txtAlterDesc";
-            txtAlterDesc.Size = new Size(401, 34);
+            txtAlterDesc.Size = new Size(462, 34);
             txtAlterDesc.TabIndex = 6;
             // 
             // txtAlterProd
             // 
             txtAlterProd.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtAlterProd.Location = new Point(160, 218);
+            txtAlterProd.Location = new Point(160, 367);
             txtAlterProd.Name = "txtAlterProd";
             txtAlterProd.Size = new Size(217, 34);
             txtAlterProd.TabIndex = 7;
@@ -125,18 +129,18 @@
             // numAlterQnt
             // 
             numAlterQnt.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            numAlterQnt.Location = new Point(160, 264);
+            numAlterQnt.Location = new Point(529, 312);
             numAlterQnt.Name = "numAlterQnt";
-            numAlterQnt.Size = new Size(111, 34);
+            numAlterQnt.Size = new Size(93, 34);
             numAlterQnt.TabIndex = 8;
             // 
             // btnAlterSalvar
             // 
-            btnAlterSalvar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAlterSalvar.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAlterSalvar.Image = (Image)resources.GetObject("btnAlterSalvar.Image");
-            btnAlterSalvar.Location = new Point(160, 347);
+            btnAlterSalvar.Location = new Point(160, 438);
             btnAlterSalvar.Name = "btnAlterSalvar";
-            btnAlterSalvar.Size = new Size(148, 58);
+            btnAlterSalvar.Size = new Size(137, 58);
             btnAlterSalvar.TabIndex = 9;
             btnAlterSalvar.Text = "Alterar";
             btnAlterSalvar.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -144,32 +148,77 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(350, 347);
+            button1.Location = new Point(320, 438);
             button1.Name = "button1";
-            button1.Size = new Size(148, 58);
+            button1.Size = new Size(136, 58);
             button1.TabIndex = 10;
             button1.Text = "Cancelar";
             button1.TextImageRelation = TextImageRelation.ImageBeforeText;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(75, 12);
+            pictureBox1.Location = new Point(75, 40);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(92, 86);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(102, 213);
+            label6.Name = "label6";
+            label6.Size = new Size(33, 28);
+            label6.TabIndex = 12;
+            label6.Text = "ID";
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(160, 207);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(117, 34);
+            textBox1.TabIndex = 13;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.Location = new Point(296, 204);
+            button2.Name = "button2";
+            button2.Size = new Size(121, 37);
+            button2.TabIndex = 14;
+            button2.Text = "Buscar";
+            button2.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.Location = new Point(42, 167);
+            label7.Name = "label7";
+            label7.Size = new Size(240, 23);
+            label7.TabIndex = 15;
+            label7.Text = "Digite o Código do produto:";
+            // 
             // AlterarProduto
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightBlue;
-            ClientSize = new Size(650, 434);
+            ClientSize = new Size(642, 509);
+            Controls.Add(label7);
+            Controls.Add(button2);
+            Controls.Add(textBox1);
+            Controls.Add(label6);
             Controls.Add(pictureBox1);
             Controls.Add(button1);
             Controls.Add(btnAlterSalvar);
@@ -204,5 +253,9 @@
         private Button btnAlterSalvar;
         private Button button1;
         private PictureBox pictureBox1;
+        private Label label6;
+        private TextBox textBox1;
+        private Button button2;
+        private Label label7;
     }
 }

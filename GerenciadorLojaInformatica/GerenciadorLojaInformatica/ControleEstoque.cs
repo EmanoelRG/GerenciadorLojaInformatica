@@ -42,5 +42,12 @@ namespace GerenciadorLojaInformatica
             dgvListarProdutos.DataSource = dao.ListarProdutos();
 
         }
-    }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            ProdutoDAO dao = new ProdutoDAO();
+            dgvListarProdutos.DataSource = dao.Buscar(txtDescricaoProduto.Text);
+
+        }
+}
 }

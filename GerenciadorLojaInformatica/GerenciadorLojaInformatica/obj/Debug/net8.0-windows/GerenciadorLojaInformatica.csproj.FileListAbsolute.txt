@@ -34,3 +34,4 @@ C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformat
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.genruntimeconfig.cache
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\ref\GerenciadorLojaInformatica.dll
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.ControleEstoque.resources
+C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.sourcelink.json
