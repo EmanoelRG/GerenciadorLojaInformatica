@@ -12,9 +12,9 @@ namespace GerenciadorLojaInformatica
     {
         //chamando as classes para conectar e repassar os valores coletados no formulário
         Conexao_db conexaoProduto = new Conexao_db();
-        Produto produto = new Produto();
-
+        //
         //Método para cadastrar produto
+        //
         public void CadastrarProduto(Produto produto)
         {
             try
@@ -30,6 +30,7 @@ namespace GerenciadorLojaInformatica
                 cadastrar.Parameters.Add("@valor", MySqlDbType.Double).Value = produto.Valor;
                 cadastrar.Parameters.Add("@quantidade", MySqlDbType.Int32).Value = produto.Quantidade;
 
+                //executa o comando da query
                 cadastrar.ExecuteNonQuery();
                 MessageBox.Show("Produto cadastrado com sucesso!");
             }
@@ -43,10 +44,17 @@ namespace GerenciadorLojaInformatica
                 conexaoProduto.FecharBanco();
             }
         }
+        //
+        //fim do metodo CadastrarProduto
+        //
+
+        //
+        //Começo método que lista todos os produtos no DataGrid
+        //
         public DataTable ListarProdutos()
         {
                 conexaoProduto.AbrirBanco();
-                
+                //criação da query e comando que vai executar ela no banco de dados 
                 string sql_buscar = "SELECT * FROM produtos";
                 MySqlCommand listar = new MySqlCommand(sql_buscar,conexaoProduto.conexao);
 
@@ -60,6 +68,11 @@ namespace GerenciadorLojaInformatica
                 
                 conexaoProduto.FecharBanco();
         }
+        //
+        //Fim do Método de listagem
+
+        //
+        //Método de busca usando a descrição do produto como filtro
         public DataTable Buscar(string descricao)
         {
             DataTable tabela = new DataTable();
@@ -96,7 +109,101 @@ namespace GerenciadorLojaInformatica
 
             return tabela;
         }
+        //
+        //Fim do método de busca por filtro 
 
+        //
+        //Método de alterar o produto imprimindo as informações no formulário
+        public Produto PegarProduto(int id)
+        {
+            Produto produto = new Produto();
+            try
+            {
+                conexaoProduto.AbrirBanco();
+                string sql = "SELECT * FROM produtos WHERE id=@id";
+                MySqlCommand leitura = new MySqlCommand(sql, conexaoProduto.conexao);
+                leitura.Parameters.AddWithValue("@id", id);
 
+                var leitor = leitura.ExecuteReader() ;
+                if (leitor.HasRows)
+                {
+                    if (leitor.Read())
+                    {
+                        produto.Id = Convert.ToInt32(leitor["id"]);
+                        produto.Descricao = leitor["descricao"].ToString();
+                        produto.Categoria = leitor["categoria"].ToString();
+                        produto.Valor = Convert.ToDouble(leitor["valor"]);
+                        produto.Quantidade = Convert.ToInt32(leitor["quantidade"]);
+
+                    }
+                }
+                return produto;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Erro ao buscar produto"+ ex.Message);
+                return null;
+            }
+            finally
+            {
+                conexaoProduto.FecharBanco();
+            }
+        }
+        //
+        //Método para atualizar o produto 
+        public bool AtualizarProduto(Produto produto)
+        {
+           
+            try
+            {
+                conexaoProduto.AbrirBanco();
+                string sql = @"UPDATE produtos SET descricao = @descricao, categoria = @categoria," +
+                           " valor = @valor, quantidade = @quantidade WHERE id = @id";
+                MySqlCommand atualizar = new MySqlCommand(sql, conexaoProduto.conexao);
+
+                atualizar.Parameters.AddWithValue("@descricao", produto.Descricao);
+                atualizar.Parameters.AddWithValue("@categoria", produto.Categoria);
+                atualizar.Parameters.AddWithValue("@valor", produto.Valor);
+                atualizar.Parameters.AddWithValue("@quantidade", produto.Quantidade);
+                atualizar.Parameters.AddWithValue("@id", produto.Id);
+
+                atualizar.ExecuteNonQuery();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao atualizar produto!", ex.Message);
+                return false;
+            }
+            finally
+            {
+                conexaoProduto.FecharBanco();
+            }
+        }
+        public bool DeletarProduto(Produto produto)
+        {
+
+            try
+            {
+                conexaoProduto.AbrirBanco();
+                string sql = @"DELETE FROM produtos WHERE id = @id";
+                MySqlCommand deletar = new MySqlCommand(sql, conexaoProduto.conexao);
+                deletar.Parameters.AddWithValue("@id", produto.Id);
+
+                deletar.ExecuteNonQuery();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao deletar produto!", ex.Message);
+                return false;
+            }
+            finally
+            {
+                conexaoProduto.FecharBanco();
+            }
+        }
     }
 }

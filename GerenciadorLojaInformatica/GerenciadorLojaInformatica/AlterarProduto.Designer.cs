@@ -36,15 +36,14 @@
             label5 = new Label();
             cmbAlterCat = new ComboBox();
             txtAlterDesc = new TextBox();
-            txtAlterProd = new TextBox();
+            txtAlterValor = new TextBox();
             numAlterQnt = new NumericUpDown();
             btnAlterSalvar = new Button();
             button1 = new Button();
             pictureBox1 = new PictureBox();
             label6 = new Label();
-            textBox1 = new TextBox();
-            button2 = new Button();
             label7 = new Label();
+            lblID = new Label();
             ((System.ComponentModel.ISupportInitialize)numAlterQnt).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -94,7 +93,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(401, 318);
+            label5.Location = new Point(401, 310);
             label5.Name = "label5";
             label5.Size = new Size(122, 28);
             label5.TabIndex = 4;
@@ -106,6 +105,7 @@
             cmbAlterCat.FormattingEnabled = true;
             cmbAlterCat.Items.AddRange(new object[] { "Hardware", "Periféricos", "SmartPhones", "Desktops", "Notebooks" });
             cmbAlterCat.Location = new Point(160, 310);
+            cmbAlterCat.MaxLength = 30;
             cmbAlterCat.Name = "cmbAlterCat";
             cmbAlterCat.Size = new Size(217, 36);
             cmbAlterCat.TabIndex = 5;
@@ -114,22 +114,24 @@
             // 
             txtAlterDesc.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtAlterDesc.Location = new Point(160, 253);
+            txtAlterDesc.MaxLength = 100;
             txtAlterDesc.Name = "txtAlterDesc";
             txtAlterDesc.Size = new Size(462, 34);
             txtAlterDesc.TabIndex = 6;
             // 
-            // txtAlterProd
+            // txtAlterValor
             // 
-            txtAlterProd.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtAlterProd.Location = new Point(160, 367);
-            txtAlterProd.Name = "txtAlterProd";
-            txtAlterProd.Size = new Size(217, 34);
-            txtAlterProd.TabIndex = 7;
+            txtAlterValor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtAlterValor.Location = new Point(160, 367);
+            txtAlterValor.MaxLength = 12;
+            txtAlterValor.Name = "txtAlterValor";
+            txtAlterValor.Size = new Size(217, 34);
+            txtAlterValor.TabIndex = 7;
             // 
             // numAlterQnt
             // 
             numAlterQnt.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            numAlterQnt.Location = new Point(529, 312);
+            numAlterQnt.Location = new Point(529, 311);
             numAlterQnt.Name = "numAlterQnt";
             numAlterQnt.Size = new Size(93, 34);
             numAlterQnt.TabIndex = 8;
@@ -145,6 +147,7 @@
             btnAlterSalvar.Text = "Alterar";
             btnAlterSalvar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnAlterSalvar.UseVisualStyleBackColor = true;
+            btnAlterSalvar.Click += btnAlterSalvar_Click;
             // 
             // button1
             // 
@@ -173,31 +176,11 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(102, 213);
+            label6.Location = new Point(102, 206);
             label6.Name = "label6";
             label6.Size = new Size(33, 28);
             label6.TabIndex = 12;
             label6.Text = "ID";
-            // 
-            // textBox1
-            // 
-            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(160, 207);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(117, 34);
-            textBox1.TabIndex = 13;
-            // 
-            // button2
-            // 
-            button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.Location = new Point(296, 204);
-            button2.Name = "button2";
-            button2.Size = new Size(121, 37);
-            button2.TabIndex = 14;
-            button2.Text = "Buscar";
-            button2.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button2.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -209,21 +192,30 @@
             label7.TabIndex = 15;
             label7.Text = "Digite o Código do produto:";
             // 
+            // lblID
+            // 
+            lblID.BackColor = SystemColors.Window;
+            lblID.BorderStyle = BorderStyle.FixedSingle;
+            lblID.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblID.Location = new Point(160, 204);
+            lblID.Name = "lblID";
+            lblID.Size = new Size(122, 30);
+            lblID.TabIndex = 16;
+            // 
             // AlterarProduto
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightBlue;
             ClientSize = new Size(642, 509);
+            Controls.Add(lblID);
             Controls.Add(label7);
-            Controls.Add(button2);
-            Controls.Add(textBox1);
             Controls.Add(label6);
             Controls.Add(pictureBox1);
             Controls.Add(button1);
             Controls.Add(btnAlterSalvar);
             Controls.Add(numAlterQnt);
-            Controls.Add(txtAlterProd);
+            Controls.Add(txtAlterValor);
             Controls.Add(txtAlterDesc);
             Controls.Add(cmbAlterCat);
             Controls.Add(label5);
@@ -248,14 +240,13 @@
         private Label label5;
         private ComboBox cmbAlterCat;
         private TextBox txtAlterDesc;
-        private TextBox txtAlterProd;
+        private TextBox txtAlterValor;
         private NumericUpDown numAlterQnt;
         private Button btnAlterSalvar;
         private Button button1;
         private PictureBox pictureBox1;
         private Label label6;
-        private TextBox textBox1;
-        private Button button2;
         private Label label7;
+        private Label lblID;
     }
 }

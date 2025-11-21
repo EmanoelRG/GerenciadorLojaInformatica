@@ -44,12 +44,15 @@
             // 
             // dgvListarProdutos
             // 
+            dgvListarProdutos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dgvListarProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvListarProdutos.Location = new Point(40, 309);
             dgvListarProdutos.Name = "dgvListarProdutos";
             dgvListarProdutos.RowHeadersWidth = 51;
-            dgvListarProdutos.Size = new Size(695, 377);
+            dgvListarProdutos.Size = new Size(715, 377);
             dgvListarProdutos.TabIndex = 0;
+            dgvListarProdutos.CellClick += dgvListarProdutos_CellClick;
+            dgvListarProdutos.CellContentClick += dgvListarProdutos_CellContentClick;
             // 
             // btnCadProduto
             // 
@@ -147,7 +150,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightBlue;
-            ClientSize = new Size(775, 698);
+            ClientSize = new Size(904, 698);
             Controls.Add(label2);
             Controls.Add(btnBuscar);
             Controls.Add(txtDescricaoProduto);

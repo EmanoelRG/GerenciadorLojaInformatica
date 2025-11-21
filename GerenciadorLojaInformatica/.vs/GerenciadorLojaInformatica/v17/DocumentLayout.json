@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\alterarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\alterarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\gerenciadorlojainformatica\\controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\conexao_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\conexao_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\alterarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\alterarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\gerenciadorlojainformatica\\controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\gerenciadorlojainformatica\\alterarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\alterarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\alterarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\alterarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\gerenciadorlojainformatica\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\gerenciadorlojainformatica\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\excluirproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\gerenciadorlojainformatica\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\conexao_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\conexao_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\gerenciadorlojainformatica\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\cadastrarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\cadastrarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|c:\\users\\emanoel\\source\\repos\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\gerenciadorlojainformatica\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BA740D-FF1A-44BC-AB50-8A694D87B5D1}|GerenciadorLojaInformatica\\GerenciadorLojaInformatica.csproj|solutionrelative:gerenciadorlojainformatica\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +70,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Conexao_db.cs",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Conexao_db.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\Conexao_db.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Conexao_db.cs",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\Conexao_db.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AlterarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\AlterarProduto.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\AlterarProduto.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\AlterarProduto.cs",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\AlterarProduto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:54:28.628Z",
+              "WhenOpened": "2025-11-16T02:12:35.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControleEstoque.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\ControleEstoque.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs [Projeto]*",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\ControleEstoque.cs [Projeto]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T00:00:22.559Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ControleEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\ControleEstoque.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs*",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\ControleEstoque.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T00:02:32.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AlterarProduto.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\AlterarProduto.cs",
               "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\AlterarProduto.cs",
@@ -99,107 +120,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ControleEstoque.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\ControleEstoque.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs [Projeto]",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\ControleEstoque.cs [Projeto]",
+              "DocumentIndex": 4,
+              "Title": "AlterarProduto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\AlterarProduto.Designer.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\AlterarProduto.Designer.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\AlterarProduto.Designer.cs",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\AlterarProduto.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T00:00:22.559Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ControleEstoque.cs",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\ControleEstoque.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ControleEstoque.cs",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\ControleEstoque.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAswDAAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T00:02:32.338Z",
+              "WhenOpened": "2025-11-21T01:17:44.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ProdutoDAO.cs",
               "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ProdutoDAO.cs",
               "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\ProdutoDAO.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ProdutoDAO.cs",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\ProdutoDAO.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwDgAAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ProdutoDAO.cs*",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\ProdutoDAO.cs*",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAuwMAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T18:51:51.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExcluirProduto.cs",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ExcluirProduto.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\ExcluirProduto.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ExcluirProduto.cs",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\ExcluirProduto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBUAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Conexao_db.cs",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Conexao_db.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\Conexao_db.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Conexao_db.cs",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\Conexao_db.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T02:12:07.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AlterarProduto.cs",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\AlterarProduto.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\AlterarProduto.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\AlterarProduto.cs",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\AlterarProduto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T02:12:35.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T22:26:51.598Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CadastrarProduto.cs",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\CadastrarProduto.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\CadastrarProduto.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\CadastrarProduto.cs",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\CadastrarProduto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwB4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T22:54:13.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MenuPrincipal.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\MenuPrincipal.cs [Projeto]",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\MenuPrincipal.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T23:58:40.98Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExcluirProduto.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ExcluirProduto.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\ExcluirProduto.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\ExcluirProduto.cs [Projeto]",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\ExcluirProduto.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T22:29:39.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "CadastrarProduto.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\CadastrarProduto.cs",
               "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\CadastrarProduto.cs",
@@ -207,6 +166,41 @@
               "RelativeToolTip": "GerenciadorLojaInformatica\\CadastrarProduto.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T21:12:18.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastrarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\CadastrarProduto.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\CadastrarProduto.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\CadastrarProduto.cs",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\CadastrarProduto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T22:54:13.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Produto.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\Produto.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Produto.cs",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\Produto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:52:09.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\MenuPrincipal.cs [Projeto]",
+              "RelativeToolTip": "GerenciadorLojaInformatica\\MenuPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T23:58:40.98Z"
             },
             {
               "$type": "Document",
@@ -231,18 +225,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T21:49:38.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Produto.cs",
-              "RelativeDocumentMoniker": "GerenciadorLojaInformatica\\Produto.cs",
-              "ToolTip": "C:\\Users\\Emanoel\\source\\repos\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\GerenciadorLojaInformatica\\Produto.cs",
-              "RelativeToolTip": "GerenciadorLojaInformatica\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:52:09.623Z"
             }
           ]
         }

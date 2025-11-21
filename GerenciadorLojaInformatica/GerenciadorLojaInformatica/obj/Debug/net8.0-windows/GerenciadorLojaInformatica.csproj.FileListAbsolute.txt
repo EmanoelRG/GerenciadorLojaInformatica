@@ -1,7 +1,6 @@
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.csproj.AssemblyReference.cache
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.AlterarProduto.resources
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.CadastrarProduto.resources
-C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.ExcluirProduto.resources
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.FormMenuPrincipal.resources
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.Properties.Resources.resources
 C:\Users\Emanoel\source\repos\GerenciadorLojaInformatica\GerenciadorLojaInformatica\GerenciadorLojaInformatica\obj\Debug\net8.0-windows\GerenciadorLojaInformatica.csproj.GenerateResource.cache
